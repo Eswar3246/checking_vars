@@ -1,0 +1,15 @@
+#!/bin/bash
+id
+whoami
+pwd
+echo "Build_id: $BUILD_ID"
+echo "BUILD_NUMBER: $BUILD_NUMBER"
+echo "BUILD_URL: $BUILD_URL"
+echo "JOB_URL: $JOB_URL"
+echo "JOB_NAME: $JOB_NAME"
+echo "BUILD_TAG: $BUILD_TAG"
+echo "EXECUTOR_NUMBER: $EXECUTOR_NUMBER"
+echo "JENKINS_HOME: $JENKINS_HOME"
+echo "WORKSPACE: $WORKSPACE"
+echo "NODE_NAME: $NODE_NAME"
+echo "GIT_COMMIT: $GIT_COMMIT"
